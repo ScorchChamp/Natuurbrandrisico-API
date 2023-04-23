@@ -20,6 +20,8 @@
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/ScorchChamp/Natuurbrandrisico-API?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/ScorchChamp/Natuurbrandrisico-API?style=for-the-badge)
 
+Unofficial API for natuurbrandrisico.nl
+
 ## Usage
 
 View the api: [https://natuurbrandrisico.scorchchamp.com/](https://natuurbrandrisico.scorchchamp.com/)
