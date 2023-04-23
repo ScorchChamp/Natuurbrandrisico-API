@@ -1,0 +1,24 @@
+{
+  "name": "natuurbrandrisico-api",
+  "version": "1.0.0",
+  "description": "Unofficial API for https://www.natuurbrandrisico.nl/",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScorchChamp/Natuurbrandrisico-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ScorchChamp/Natuurbrandrisico-API/issues"
+  },
+  "homepage": "https://github.com/ScorchChamp/Natuurbrandrisico-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsdom": "^21.1.1"
+  }
+}
