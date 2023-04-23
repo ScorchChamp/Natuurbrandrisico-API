@@ -28,13 +28,13 @@ Unofficial API for https://www.natuurbrandrisico.nl/
 
 
 - View the current natuurbrandrisico-fase per region.
-- Use [The API](https://scorchchamp.com/natuurbrand-api) to see the data!
+- Use [The API](https://natuurbrandrisico.scorchchamp.com/) to see the data!
 
 
 
 ## Usage
 
-[https://scorchchamp.com/natuurbrand-api](https://scorchchamp.com/natuurbrand-api)
+[https://natuurbrandrisico.scorchchamp.com/](https://natuurbrandrisico.scorchchamp.com/)
 
 or run it locally using [docker](https://hub.docker.com/repository/docker/scorchchamp/natuurbrand-api/general)
 ## Contributing
