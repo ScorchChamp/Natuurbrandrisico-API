@@ -20,9 +20,13 @@
 ![GitHub Repo Size](https://img.shields.io/github/repo-size/ScorchChamp/Natuurbrandrisico-API?style=for-the-badge)
 ![GitHub Repo Stars](https://img.shields.io/github/stars/ScorchChamp/Natuurbrandrisico-API?style=for-the-badge)
 
+## Usage
+
+View the api: [https://natuurbrandrisico.scorchchamp.com/](https://natuurbrandrisico.scorchchamp.com/)
+
+or run it locally using [docker](https://hub.docker.com/repository/docker/scorchchamp/natuurbrand-api/general)
 
 
-Unofficial API for https://www.natuurbrandrisico.nl/
 
 ## Features
 
@@ -62,11 +66,6 @@ Unofficial API for https://www.natuurbrandrisico.nl/
 ```
 
 
-## Usage
-
-[https://natuurbrandrisico.scorchchamp.com/](https://natuurbrandrisico.scorchchamp.com/)
-
-or run it locally using [docker](https://hub.docker.com/repository/docker/scorchchamp/natuurbrand-api/general)
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
