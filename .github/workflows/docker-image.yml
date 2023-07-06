@@ -19,10 +19,14 @@ jobs:
         name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v2
       -
+        name: Set repository name to lowercase
+        id: repo-name-lowercase
+        run: echo ::set-output name=repo-name::${{ github.event.repository.name }} | tr '[:upper:]' '[:lower:]'
+      -
         name: Build and push
         uses: docker/build-push-action@v4
         with:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: registry.scorchchamp.com/${{ github.event.repository.name }}:latest
+          tags: registry.scorchchamp.com/${{ steps.repo-name-lowercase.outputs.repo-name }}:latest
